@@ -101,10 +101,14 @@ ul, ol {
 
 .hover:hover {
   color: var(--main-color);
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover:focus {
   color: var(--main-color);
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-hover:hover {
@@ -113,6 +117,8 @@ ul, ol {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-hover:focus {
@@ -121,6 +127,8 @@ ul, ol {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo a {
@@ -222,6 +230,36 @@ ul, ol {
 .padding-portfolio {
   padding-left: 57px;
   padding-right: 69px;
+}
+
+.portfolio-visual {
+  position: relative;
+}
+
+.portfolio-visual::after {
+  content: "";
+  position: absolute;
+  width: 58px;
+  height: 4px;
+  top: 46px;
+  left: 0;
+  background: #2196f3;
+  border-radius: 2px;
+}
+
+.studio-visual {
+  position: relative;
+}
+
+.studio-visual::after {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 4px;
+  top: 46px;
+  left: 0;
+  background: #2196f3;
+  border-radius: 2px;
 }
 
 .padding-tel {
@@ -375,16 +413,12 @@ ul, ol {
   margin-right: auto;
 }
 
-.img-box:hover {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
 .img-box:focus {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-svg {
@@ -416,11 +450,15 @@ ul, ol {
 .nav-icon:hover {
   fill: var(--main-color);
   color: var(--main-color);
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-icon:focus-within {
   fill: var(--main-color);
   color: var(--main-color);
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .info-icon-background {
@@ -446,6 +484,8 @@ ul, ol {
   background-color: var(--main-color);
   border-radius: 50%;
   fill: white;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .company-icons {
@@ -468,6 +508,8 @@ ul, ol {
   fill: var(--main-color);
   color: var(--main-color);
   border: 1px solid var(--main-color);
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .find-us-placement {
@@ -509,12 +551,16 @@ ul, ol {
   background-color: var(--main-color);
   border-radius: 50%;
   fill: white;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .find-us-app-icons:focus {
   background-color: var(--main-color);
   border-radius: 50%;
   fill: white;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
