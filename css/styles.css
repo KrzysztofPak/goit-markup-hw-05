@@ -13,7 +13,8 @@ a {
   text-decoration: none;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -354,8 +355,8 @@ ul, ol {
 }
 
 .bt:hover {
-  color: #FFFFFF;
-  background-color: #2196F3;
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .buttons-style {
