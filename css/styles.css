@@ -708,7 +708,7 @@ ol {
 }
 
 .modal-btn-close:hover {
-  color: var(--main-color);
+  color: #2196f3;
   transition: transform 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
