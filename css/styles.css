@@ -698,10 +698,10 @@ ol {
   padding-bottom: 0px;
 }
 
-.modal-btn-close:hover {
+.modal-btn:hover {
   color: #2196f3;
 }
 
-.modal-btn-close:focus {
+.modal-btn:focus {
   color: #2196f3;
 }
