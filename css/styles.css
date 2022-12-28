@@ -12,6 +12,7 @@ a {
   color: inherit;
   text-decoration: none;
   transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 ul,
@@ -105,14 +106,10 @@ ol {
 
 .hover:hover {
   color: var(--main-color);
-  transition: transform 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover:focus {
   color: var(--main-color);
-  transition: transform 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-hover:hover {
@@ -453,13 +450,12 @@ ol {
   color: var(--second-font-color);
   cursor: pointer;
   transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-icon:hover {
   fill: var(--main-color);
   color: var(--main-color);
-  transition: transform 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-icon:focus-within {
@@ -487,14 +483,13 @@ ol {
   cursor: pointer;
   line-height: 0;
   transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .app-icons:hover {
   background-color: var(--main-color);
   border-radius: 50%;
   fill: white;
-  transition: transform 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .company-icons {
@@ -506,6 +501,7 @@ ol {
   fill: rgba(175, 177, 184, 1);
   cursor: pointer;
   transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .company-icons:hover {
@@ -518,8 +514,6 @@ ol {
   fill: var(--main-color);
   color: var(--main-color);
   border: 1px solid var(--main-color);
-  transition: transform 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .find-us-placement {
@@ -556,22 +550,19 @@ ol {
   line-height: 0;
   margin-right: 10px;
   transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .find-us-app-icons:hover {
   background-color: var(--main-color);
   border-radius: 50%;
   fill: white;
-  transition: transform 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .find-us-app-icons:focus {
   background-color: var(--main-color);
   border-radius: 50%;
   fill: white;
-  transition: transform 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
@@ -709,12 +700,8 @@ ol {
 
 .modal-btn-close:hover {
   color: #2196f3;
-  transition: transform 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn-close:focus {
   color: #2196f3;
-  transition: transform 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
